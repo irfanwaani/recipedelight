@@ -25,7 +25,7 @@ function page({ params }) {
     <div className="">
       {Loading ? (
         <div className="p-6 grid lg:grid-cols-2 lg:h-screen w-full bg-gray-50">
-          <div className="flex w-full flex-col gap-6 items-start justify-start">
+          <div className="flex order-2 w-full flex-col gap-6 items-start justify-start">
             <div className="h-6 w-[10%] bg-gray-200 rounded "></div>
             <div className="h-8 w-[70%] bg-gray-200 rounded "></div>
             <div className="h-5 w-[30%] bg-gray-200 rounded "></div>
@@ -43,8 +43,8 @@ function page({ params }) {
             </div>
             <div className="w-full h-[100px] bg-gray-200"></div>
           </div>
-          <div className="p-4">
-            <div className="h-full w-full bg-gray-200"></div>
+          <div className="p-4 order-1 lg:order-2">
+            <div className="lg:h-full h-[500px] w-full bg-gray-200"></div>
           </div>
         </div>
       ) : (
