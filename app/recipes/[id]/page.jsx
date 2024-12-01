@@ -48,7 +48,7 @@ function page({ params }) {
           </div>
         </div>
       ) : (
-        <div className="font-sans justify-center gap-4 items-center grid lg:grid-cols-2 px-6 bg-lime-600 text-white py-2">
+        <div className="font-sans justify-center gap-4 items-center grid lg:grid-cols-2 lg:px-6 px-2 bg-lime-600 text-white py-2">
           <div className="order-2 lg:order-1">
             <div className=" flex flex-col gap-4">
               <span className="p-1 bg-fuchsia-600 uppercase tracking-wider shadow rounded w-fit text-white">
