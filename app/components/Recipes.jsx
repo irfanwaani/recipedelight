@@ -27,7 +27,7 @@ function Recipes({ heading, limit = 8, sort = "name" }) {
   return (
     <div className="px-4 lg:px-12">
       <div className="py-6">
-        <h1 className="text-[60px] font-bold">{heading}</h1>
+        <h1 className="text-[40px] lg:text-[60px] font-bold">{heading}</h1>
         <hr className="w-[150px] border-4 bg-gray-950" />
       </div>
       {loading ? (
