@@ -8,7 +8,7 @@ function Hero() {
     >
       <div className="absolute w-full h-full bg-[#00000064]"></div>
       <div className="relative z-10 flex gap-3 flex-col justify-center items-center text-white">
-        <h1 className="text-[28px] lg:text-[40px] font-bold font-sans text-center">
+        <h1 className="text-[24px] lg:text-[40px] font-bold font-sans text-center">
           Recipes You Fall In Love With
         </h1>
         <p className="text-md  lg:text-lg text-center tracking-wide">
